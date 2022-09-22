@@ -23,7 +23,7 @@ And on your host machine run this:
 ```
 $ python3 Pin_Bruteforcer.py | nc PHONE_LOCAL_IP PORT
 ```
-For more details see my [article]() about this project
+For more details see my [article](https://z3robyte.github.io/project/How-I-made-a-bruteforcer-via-infrared/) about this project
 
 
 
