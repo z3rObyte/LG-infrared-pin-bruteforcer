@@ -8,8 +8,14 @@ $ cd LG-infrared-pin-bruteforcer
 $ pip3 install -r requirements.txt
 ```
 ## Usage
-You need to have a mobile phone with an infrared emitter and termux installed along with its API.
+You need to have a mobile phone with an infrared emitter and termux installed from [Fdroid](https://f-droid.org/en/packages/com.termux/) along with its [API](https://f-droid.org/en/packages/com.termux.api/).
 Open termux and execute this:
+```
+$ apt update; pkg upgrade -y
+$ pkg install termux-api nc
+```
+Now install [TERMUX API](https://f-droid.org/en/packages/com.termux.api/).
+And then, run this:
 ```
 $ nc -lvp PORT -k | sh
 ```
