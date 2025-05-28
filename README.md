@@ -17,11 +17,7 @@ $ pkg install termux-api nc
 Now install [TERMUX API](https://f-droid.org/en/packages/com.termux.api/).
 And then, run this:
 ```
-$ nc -lvp PORT -k | sh
-```
-And on your host machine run this:
-```
-$ python3 Pin_Bruteforcer.py | nc PHONE_LOCAL_IP PORT
+$ python3 pinbrute.py --delay-key 0.5 --delay-pin 2
 ```
 For more details see my [article](https://z3robyte.github.io/project/How-I-made-a-bruteforcer-via-infrared/) about this project
 
