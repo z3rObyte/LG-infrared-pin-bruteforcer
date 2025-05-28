@@ -5,7 +5,6 @@ A script to brute-force the parental control pin on LG TVs
 ```
 $ git clone https://github.com/z3rObyte/LG-infrared-pin-bruteforcer
 $ cd LG-infrared-pin-bruteforcer
-$ pip3 install -r requirements.txt
 ```
 ## Usage
 You need to have a mobile phone with an infrared emitter and termux installed from [Fdroid](https://f-droid.org/en/packages/com.termux/) along with its [API](https://f-droid.org/en/packages/com.termux.api/).
